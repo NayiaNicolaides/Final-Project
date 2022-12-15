@@ -1,0 +1,43 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 13 dic 2022, 22:34:50
+    Author     : Nayia
+*/
+.controls {
+    -fx-background-color: #f2f2f2;
+    -fx-border-radius:  0 0 8px 8px;
+    -fx-background-radius:  0 0 8px 8px;
+    -fx-padding: 0 10px 0 10px;
+    -fx-spacing:  10;
+}
+.container {
+    -fx-background-color: #fff;
+    -fx-padding: 10px;
+}
+.textarea {
+    -fx-background-insets: 0;
+    -fx-background-color: transparent, white, transparent, white;
+    -fx-wrap-text: true;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0.5, 0.0, 0.0);
+}
+.textarea .content {
+    -fx-background-color: transparent, white, transparent, white;
+}
+
+.textarea:focused .content {
+    -fx-background-color: transparent, white, transparent, white;
+}
+
+.textarea:focused {
+    -fx-highlight-fill: #7ecfff;
+}
+
+.textarea .content {
+    -fx-padding: 10px;
+    -fx-text-fill: gray;
+    -fx-highlight-fill: #7ecfff;
+}
+
